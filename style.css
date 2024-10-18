@@ -1,0 +1,28 @@
+body{
+    background:linear-gradient(90deg,blue,red, yellow);
+    display: flex;
+    justify-content: center;
+}
+.class{
+    height: 600px;
+    width: 600px ;
+    border: 4px solid azure;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQftDasBwMr4-ASK0hEVJsJHNGbfRukQLrlpg&s);
+    background-size: cover;
+    background-position:50%;
+    border-radius: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    transition: 2s;
+}
+audio{
+    width:400px;
+
+}
+.class:hover{
+    height:300px;
+    width:300px;
+    transition:2s;
+    box-shadow: 0px 0px 10px 10px blueviolet;
+}
